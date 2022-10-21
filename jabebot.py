@@ -8,7 +8,7 @@ def ask(question, chat_log=None):
     prompt_text = f'{chat_log}{restart_sequence}: {question}{start_sequence}:'
     resp = requests.post(
         "https://api.ai21.com/studio/v1/j1-large/complete",
-        headers={"Authorization": "Bearer 4Vyt47IveUCFO7KeDRtciO3hpHLwi4v4"},
+        headers={"Authorization": "Bearer TOKEN"},
         json={
             "prompt": prompt_text,  # f'User: {text}',
             "numResults": 1,

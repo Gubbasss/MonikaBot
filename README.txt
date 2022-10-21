@@ -1,5 +1,5 @@
 This is a chatbot designed for replit.
-Ther bot's keep alive program was forked from 
+The bot's keep alive program was forked from 
 https://replit.com/@1nkFalcon
 
 The original Jabebot file was written by https://github.com/Jman4190/gpt3-jabebot.
